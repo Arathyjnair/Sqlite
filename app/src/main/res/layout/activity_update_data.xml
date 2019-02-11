@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_data">
+
+    <EditText
+        android:id="@+id/updtenmnme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name "
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#da10bf"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/updtecntct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:hint="Enter Contact"
+        android:textColor="#da10bf"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updtenmnme"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btnupdte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="91dp"
+        android:text="UPDATE"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
